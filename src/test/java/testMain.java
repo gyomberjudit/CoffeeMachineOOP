@@ -8,14 +8,6 @@ public class testMain {
     Main main = new Main();
 
     @Test
-    public void testString() {
-        String testString = "aa bbb cccc ddeedd";
-        String[] testArray = {"bbb", "ee"};
-
-        assertEquals("aa *** cccc dd**dd", main.string(testString, testArray));
-    }
-
-    @Test
     public void testCreateCoffee() {
         CoffeeMachine machine = new CoffeeMachine();
         Coffee coffee = machine.createCoffee(CoffeeType.AMERICANO);

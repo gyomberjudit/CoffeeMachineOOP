@@ -15,3 +15,7 @@ public class CoffeeMachine {
         }
     }
 }
+
+
+//kávéautomata gyártás enummal, kaucino, expresso, americano
+//metódus visszaadja, hogy hány egységnyi tej van benne
