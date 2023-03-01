@@ -14,4 +14,12 @@ public class testMain {
         assertInstanceOf(Americano.class, coffee);
         assertEquals(1, coffee.milkRatio());
     }
+
+    @Test
+    public void testCreateCoffee2() {
+        CoffeeMachine machine = new CoffeeMachine();
+        Coffee coffee = machine.createCoffee(CoffeeType.CAPUCINO);
+        assertInstanceOf(Capucino.class, coffee);
+        assertEquals(1, coffee.milkRatio());
+    }
 }
