@@ -6,8 +6,8 @@ public class CoffeeMachine {
         switch (type) {
             case AMERICANO:
                 return new Americano();
-            case CAPUCINO:
-                return new Capucino();
+            case CAPPUCCINO:
+                return new Cappuccino();
             case ESPRESSO:
                 return new Espresso();
             default:

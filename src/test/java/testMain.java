@@ -18,8 +18,8 @@ public class testMain {
     @Test
     public void testCreateCoffee2() {
         CoffeeMachine machine = new CoffeeMachine();
-        Coffee coffee = machine.createCoffee(CoffeeType.CAPUCINO);
-        assertInstanceOf(Capucino.class, coffee);
+        Coffee coffee = machine.createCoffee(CoffeeType.CAPPUCCINO);
+        assertInstanceOf(Cappuccino.class, coffee);
         assertEquals(3, coffee.milkRatio());
     }
 }

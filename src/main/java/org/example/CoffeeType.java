@@ -2,6 +2,6 @@ package org.example;
 
 public enum CoffeeType {
     AMERICANO,
-    CAPUCINO,
+    CAPPUCCINO,
     ESPRESSO
 }

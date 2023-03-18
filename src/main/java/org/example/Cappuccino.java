@@ -1,6 +1,6 @@
 package org.example;
 
-public class Capucino extends Coffee{
+public class Cappuccino extends Coffee{
     @Override
     public int milkRatio() {
      //   return super.milkRatio();     //most nem az őst adjuk vissza, saját aránya lesz
