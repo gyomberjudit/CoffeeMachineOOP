@@ -20,6 +20,6 @@ public class testMain {
         CoffeeMachine machine = new CoffeeMachine();
         Coffee coffee = machine.createCoffee(CoffeeType.CAPUCINO);
         assertInstanceOf(Capucino.class, coffee);
-        assertEquals(1, coffee.milkRatio());
+        assertEquals(3, coffee.milkRatio());
     }
 }
